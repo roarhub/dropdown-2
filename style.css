@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+body {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 16px;
+  border-bottom: 1px solid #737272;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  position: relative;
+}
+
+.hiddenLinks {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  gap: 12px;
+}
+.hide{
+  display: none;
+}
+
+.hiddenLinks a {
+  padding: 6px 12px;
+  background-color: brown;
+  color: white;
+  border-radius: 4px;
+}
